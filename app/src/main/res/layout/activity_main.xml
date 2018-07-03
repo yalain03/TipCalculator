@@ -12,6 +12,9 @@
         android:id="@+id/tvBillAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:text="@string/main.msg.billamount"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/colorWhite"/>
@@ -30,6 +33,8 @@
         android:layout_below="@+id/tvBillAmount"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:background="@android:color/transparent"/>
 
     <View
@@ -38,6 +43,8 @@
         android:layout_height="1dp"
         android:layout_below="@+id/etBillAmount"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:background="@color/colorLightGray"/>
 
     <LinearLayout
@@ -46,6 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/vRatingButtons"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:orientation="horizontal">
 
         <ImageButton
@@ -61,6 +70,8 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/activity_image_buttons"
             android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:backgroundTint="@color/colorBlue"
             android:src="@drawable/emoticon_happy"/>
 
@@ -69,6 +80,8 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/activity_image_buttons"
             android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:backgroundTint="@color/colorBlue"
             android:src="@drawable/emoticon"/>
 
@@ -80,6 +93,8 @@
         android:layout_height="1dp"
         android:layout_below="@+id/rlRatingButtons"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:background="@color/colorLightGray"/>
 
     <TextView
@@ -90,6 +105,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/vRatingSeparator"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:textColor="@color/colorWhite"
         android:gravity="center"
         android:textAllCaps="true"
@@ -102,14 +119,19 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_below="@+id/tvServiceRating"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:divider="?android:dividerHorizontal"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:showDividers="middle">
 
         <TextView
+            android:id="@+id/tvTipPercent"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:gravity="center"
             android:text="@string/main.msg.tippercent"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -117,9 +139,12 @@
             android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
         <TextView
+            android:id="@+id/tvTipAmount"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:gravity="center"
             android:text="@string/main.msg.tiptotal"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -133,6 +158,8 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_below="@+id/llTipInformation"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:background="@color/colorLightGray"/>
 
@@ -142,6 +169,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/vBillSeparator"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:gravity="center"
         android:text="@string/main.msg.billtotal"
         android:textAllCaps="true"
@@ -154,6 +183,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvBillTotal"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:gravity="center"
         android:text="@string/main.msg.billtotalresult"
         android:textAllCaps="true"
